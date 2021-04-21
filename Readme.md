@@ -1,6 +1,6 @@
 UndoRedo class contains following functions:-
 1. `append()`  
-    It will apend data into stack.
+    It will append data into stack.
 2.  `pop()`  
     It will pop data upto current index.
 3.  `undo()`  
@@ -11,3 +11,7 @@ UndoRedo class contains following functions:-
     Returns data of (current index-1). It can be used before `undo()`.
 6. `redoText()`  
     Returns data of (current index+1). It can be used before `redo()`.
+
+Example:-  
+`from Undo_Redo import UndoRedo` module import  
+`stack=UndoRedo()` create object
