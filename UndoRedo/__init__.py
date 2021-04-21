@@ -6,7 +6,7 @@ class UndoRedo:
         self._stack = deque()
         self._index = -1
 
-    def append(self, num: int):
+    def append(self, num):
         self.pop()
         self._stack.append(num)
         self._index += 1
