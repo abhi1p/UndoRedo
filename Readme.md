@@ -1,3 +1,4 @@
+**Implementation of Undo/Redo**  
 UndoRedo class contains following functions:-
 1. `append()`  
     It will append data into stack.
