@@ -13,4 +13,5 @@ setup(name='Undo_Redo',
       license='MIT',
       packages=['Undo_Redo'],
       install_requires=[],
+      long_description_content_type='text/markdown'
       )
